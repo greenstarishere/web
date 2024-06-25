@@ -1,0 +1,27 @@
+{
+  "name": "@example/basics",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "deno run --allow-net --allow-read --allow-env ./dist/server/entry.mjs"
+  },
+  "devDependencies": {
+    "@astrojs/preact": "0.5.2",
+    "@astrojs/renderer-preact": "^0.5.0",
+    "@astrojs/tailwind": "^0.2.1",
+    "@astrojs/vercel": "^7.7.2",
+    "astro": "^4.11.1",
+    "autoprefixer": "^10.4.8",
+    "postcss": "^8.4.14",
+    "preact": "^10.10.2",
+    "tailwindcss": "^3.1.8"
+  },
+  "dependencies": {
+    "@astrojs/deno": "^1.0.0",
+    "atropos": "1.0.2",
+    "moment": "^2.29.4"
+  }
+}
